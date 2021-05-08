@@ -414,4 +414,82 @@ html {
         }
     
         /* FIN DE  PARTE 2 y 3 EDDIE */
+    /* footer */
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin:auto;
+    overflow: hidden;
+  }
+  
+  .contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+  
+  }
+  
+  .contenedor-footer2{
+      display: flex;
+      width: 90%;
+  
+      margin: auto;
+      padding-bottom: 50px;
     
+    }
+  
+  .contenedor-pie{
+    text-align: left;
+  }
+  
+  .contenedor-pie p{
+    color: #ccc;
+  }
+  
+  .creditos{
+    text-align: left;
+    font-size: 15px;
+    margin: 20px 0 0 0;
+    color: #9e9797
+  }
+  
+  @media screen and (max-width:500px){
+    nav{
+        text-align: center;
+        padding:30px 0 0 0;  
+    }
+  
+    nav > a{
+        margin-right: 5px;
+    }
+  
+  
+    /* Footer */
+  
+    .contenedor-footer{
+        flex-direction: column;
+        border: none;
+    }
+  
+    .contenedor-pie{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+  
+    .contenedor-pie h4{
+        border: none;
+    }
+  
+    .contenedor-pie p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+  
+    .creditos{
+        font-size: 20px;
+    }
+  }
