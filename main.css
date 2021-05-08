@@ -240,6 +240,7 @@ html {
            display: flex;
            font-family: AvenirNext sans-serif;
            padding: 50px;
+          
              background-color:#dcdcdf;
              padding-top: 52px;
              padding-bottom: 30px;
@@ -414,9 +415,10 @@ html {
         }
     
         /* FIN DE  PARTE 2 y 3 EDDIE */
-    /* footer */
+           /* footer */
 
 footer{
+    position: static;
     background: #414141;
     padding: 60px 0 30px 0;
     margin:auto;
