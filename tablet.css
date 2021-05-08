@@ -29,7 +29,23 @@ margin: 15px 15px 30px 15px;
 
 
 
+.content-button{
+  display: grid;
+            width: 650px;
+            height: 720px;
+            
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(5, 25%);
+            grid-template-areas:
+                 "a a "
+                 "a a "
+                 "b b"
+                 "b b"
+                 "c c ";
+            grid-gap: 50px;
+            grid-row: auto;
 
+}
 
 
 
