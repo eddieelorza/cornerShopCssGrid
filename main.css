@@ -1,0 +1,417 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+  }
+@font-face {
+    font-family: AvenirNext sans-serif;
+    src: url(fonts/AvenirNextLTPro-Regular.otf);
+}
+@font-face {
+    font-family: AvenirNextBold sans-serif;
+    src: url(fonts/AvenirNextLTPro-Bold.otf);
+}
+
+@font-face {
+    font-family: AvenirNextCondensed;
+    src: url(fonts/AvenirNextCondensed.ttc);
+}
+.Cornershop{
+    display: grid;
+    justify-items: center;
+    padding-top: 25px;
+    margin-bottom: 90px;
+}
+.logo{
+    width: 260px;
+    height: 85px;
+    opacity:0.7;
+    filter:alpha(opacity=20);
+}
+.rojo{
+    display: grid;
+    align-content:center;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 20px;
+    color: #ff0026;
+    font-family: "Avenir Next Condensed", "Avenir Next", Avenir, sans-serif;
+    font-size: 7.0rem;
+    line-height: 1;
+}
+.content{
+    display: grid;
+    justify-items: center;
+}
+.nav{
+    font-family: "Avenir", "Avenir Next", Avenir, sans-serif;
+    text-align: justify;
+    padding: 13px;
+    font-size: 2.0rem;
+    height: 55px;
+    width: 150px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #d9d9d9;
+    box-shadow: transparent;
+    transition-property: border-color, box-shadow;
+}
+.btn1{
+    font-size: 2.0rem;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #ff0026;
+    color: white;
+    margin-left: 6px;
+    height: 55px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+}
+.btn1:hover{
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+.cuenta{
+    display: grid;
+    justify-items: center;
+
+}
+.log-in{
+    padding-top: 20px;
+    font-size: 1.7rem;
+    font-weight: 300;
+    font-family: "Avenir", "Avenir Next", Avenir, sans-serif;
+    color: rgb(116,116,116);
+}
+.btn2{
+    font-family: "Avenir", "Avenir Next", Avenir, sans-serif;
+    text-decoration: underline;
+    font-size: 1.7rem;
+    font-weight: 900;
+    border-style: hidden;
+    color:  rgb(116,116,116);
+    background-color: white;
+    cursor: pointer;
+}
+.animation{
+    display: grid;
+    position: relative;
+    justify-items: center;
+}
+.naranja{
+    border-radius: 100%;
+    width: 550px;
+    height: 583px;
+    margin-top: 50px;
+}
+.cont{
+    display: grid;
+    position: absolute;
+    grid-template-columns: 600px 800px;
+    bottom: 0px;
+    width: 100%;
+    
+    height:300px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    background-color: rgba(227,227,229,0.6);
+    backdrop-filter: blur(20px);
+    font-family: "Avenir Next", "Avenir Next", Avenir, sans-serif;
+    font-size: 23px;
+}
+.compact{
+    width: 450px;
+    margin-left: 680px;
+    margin-top: 50px;
+
+}
+.logos{
+    display:inline-flex;
+    
+   margin: 0 10px 0 10px;
+    margin-left: 550px;
+   margin-top: 50px;
+}
+.item2{
+    margin-left: 15px;
+}
+/* PARTE 2 y 3 DE EDDIE */
+.container {
+    width: 100%;
+      height: auto;
+      padding-top: 20px;
+      padding-bottom: 0px;
+      background-color: rgb(255, 255, 255);
+      margin:0px auto;
+    
+    }
+    
+    .container .cuadro{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, 25%);
+        grid-template-areas:
+             " . Cf Cf Cf ."
+             " . C1 C2 C3 .";
+        grid-gap: 40px;
+        list-style: none;
+    }
+    .cuadro #cf{
+            grid-area: Cf;
+            color: #2b2b2b;
+            text-align: center;
+            font-size: 2.5rem;
+            font-family: AvenirNextBold sans-serif;
+            align-self: center;
+            justify-self: center;
+            margin:0 auto;   
+    }
+       .cuadro #one{
+            grid-area: C1;
+        }
+       .cuadro #two{
+            grid-area: C2;
+        }
+       .cuadro #three{
+            grid-area: C3;
+        }
+       
+        .Cuadro .Contenidos{
+            line-height: 1.2;
+        }
+        .Contenidos h2{
+            color: #2b2b2b;
+            font-size: 2.2rem;
+            font-family: 'AvenirNextBold', sans-serif;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+    
+        .Contenidos p{
+            font-size: 1.7rem;
+            color: #5b5b5b;
+            text-align: center;
+            font-family: AvenirNext sans-serif;
+            margin: 0 auto;
+        }
+        .Contenidos .box{
+            width: 84px;
+            height: 84px;
+            color: white;
+            border-radius: 8px;
+            font-size: 42px;
+            line-height: 84px;
+            text-align: center;
+            margin:0 auto;
+            margin-bottom: 30px;
+            font-family: AvenirNext, sans-serif;
+        }
+        
+        #f1{
+            background-color: #FF0A17;
+        }
+        #f2{
+            background-color: #FF8F00;
+        }
+        #f3{
+            background-color: #00DE52;
+        }
+        .container .fruit #img-fruit{
+            position:static;
+            min-height: 320px;
+            height: 40vh;
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center top;
+            max-width: 1566px; 
+            margin:0 auto;
+            background-image: url('./IMG/Fruit_1x.jpeg');
+            
+     
+        }
+      
+       .content2{
+           display: flex;
+           font-family: AvenirNext sans-serif;
+           padding: 50px;
+             background-color:#dcdcdf;
+             padding-top: 52px;
+             padding-bottom: 30px;
+            justify-content: center;
+            
+       }
+        .content-button{
+            display: grid;
+            width: 850px;
+            height: 720px;
+            
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 25%);
+            grid-template-areas:
+                 "a a b b"
+                 "a a b b"
+                 "c c  c c";
+            grid-gap: 50px;
+            
+            
+        }
+       
+        
+        .publicidad{
+            border: 0;
+            display: flex;
+            border-radius: 12px;
+            
+            background-image: url('./IMG/Bags_2x.png');
+            background-size: cover;
+            background-position: center center;
+            cursor: pointer;
+            box-shadow: 0px 4px 32px rgb(0 0 0 / 15%);
+        }
+        .publicidad h2{
+            font-size: 3.5rem;
+            font-weight: 600;
+        }
+        .publicidad .deco{
+            font-size: 1.7rem;
+        }
+        .publicidad .deco {
+        text-decoration:none;
+        color: black;
+        background: linear-gradient(rgba(255, 255, 255, 0.85) 60%, rgba(255, 255, 255, 0) 100%);
+        padding: 20px;
+        line-height: 1.6;
+        margin:0 auto;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        text-shadow: 0px 2px 4px rgb(255 255 255 / 50%);
+        }
+    
+    .deco .arrow{
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin: 0 auto;
+        background-image: url('./IMG/arrow-right.svg');
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    .publicidad2{
+        border: 0;
+        display: flex;
+        border-radius: 12px;
+        
+        background-image: url('./IMG/Storefront_2x.jpeg');
+        background-size: cover;
+        background-position: center center;
+        cursor: pointer;
+        box-shadow: 0px 4px 32px rgb(0 0 0 / 15%);
+    }
+    .publicidad2 h2{
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    .publicidad2 .deco2{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .publicidad2 .deco2 {
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    background: linear-gradient(rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0) 100%);
+    padding: 20px;
+    
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-shadow: -10px 2px 4px rgb(0 0 0 / 50%)
+    }
+    
+    .deco2 .arrow{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    background-image: url('./IMG/arrow-white.svg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    }
+    .publicidad3{
+        border: 0;
+        display: flex;
+        background-color: #2b2b2b ;
+        border-radius: 12px;
+        justify-content: center;
+        cursor: pointer;
+    
+    }
+    .publicidad3 h2{
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    .publicidad3 .deco3{
+        font-size: 1.7rem;
+    }
+    .publicidad3 .deco3 {
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    padding: 20px;
+    margin:0 auto;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-shadow: -10px 2px 4px rgb(0 0 0 / 50%);
+    }
+    
+    .deco3 .arrow{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    background-image: url('./IMG/arrow-white.svg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    }
+    .publicidad:hover, .publicidad:focus, .publicidad:active {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+      }
+      .publicidad2:hover, .publicidad2:focus, .publicidad2:active {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+      }
+      .publicidad3:hover, .publicidad3:focus, .publicidad3:active {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+      }
+    
+        #b1{
+            grid-area: a;
+        }
+        #b2{
+            grid-area: b;
+        }
+        #b3{
+            grid-area: c;
+        }
+    
+        /* FIN DE  PARTE 2 y 3 EDDIE */
+    

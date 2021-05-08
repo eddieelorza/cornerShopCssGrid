@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+  height: auto;
+  padding: 0px;
+ 
+  background-color: rgb(255, 255, 255);
+  margin:0px auto;
+}
+.container .cuadro{
+    display: inline-block;
+    margin: 20px 0 30px 0;
+
+
+}
+.cuadro li{
+margin: 15px 15px 30px 15px;
+  text-align: center;
+  text-justify: distribute-all-lines;
+}
+.container .fruit #img-fruit{
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    min-width: 500px;
+    margin:0 auto;
+    background-image: url('./img/Fruit_1x.jpeg');
+}
+
+
+
+
+
+
+
+
